@@ -1,0 +1,380 @@
+# GBCF
+# Copyright (C) 2008 David Pello
+# This file is distributed under the GNU GPL License.
+# David Pello <zako@ladecadence.net>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VERSION 0.37\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-11-09 14:30+0100\n"
+"PO-Revision-Date: 2008-11-21 12:54+0100\n"
+"Last-Translator: David Pello <zako@ladecadence.net>\n"
+"Language-Team: Spanish <zako@ladecadence.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: EraseThread.cpp:88
+msgid ">> ERROR Erase: "
+msgstr ">> ERROR Borrando:"
+
+#: EraseThread.cpp:92
+#: ReadFlashThread.cpp:204
+#: ReadRamThread.cpp:212
+#: WriteRamThread.cpp:182
+msgid "Success."
+msgstr ">Éxito."
+
+#: gbcflsh.cpp:57
+msgid "-12bit"
+msgstr "-12bit"
+
+#: gbcflsh.cpp:59
+msgid "-longer"
+msgstr "-longer"
+
+#: gbcflsh.cpp:61
+msgid "-default"
+msgstr "-default"
+
+#: gbcflsh.cpp:63
+msgid "-datapoll"
+msgstr "-datapoll"
+
+#: gbcflsh.cpp:65
+msgid "-showbbl"
+msgstr "-showbbl"
+
+#: gbcflsh.cpp:70
+msgid "-lowspeed"
+msgstr "-lowspeed"
+
+#: gbcflsh.cpp:72
+msgid "-highspeed"
+msgstr "-highspeed"
+
+#: gbcflsh.cpp:77
+msgid "--status"
+msgstr "--status"
+
+#: gbcflsh.cpp:79
+msgid "--read-rom"
+msgstr "--read-rom"
+
+#: gbcflsh.cpp:81
+msgid "--write-rom"
+msgstr "--write-rom"
+
+#: gbcflsh.cpp:83
+msgid "--read-ram"
+msgstr "--read-ram"
+
+#: gbcflsh.cpp:85
+msgid "--write-ram"
+msgstr "--write-ram"
+
+#: gbcflsh.cpp:87
+msgid "--erase-rom"
+msgstr "--erase-rom"
+
+#: gbcflsh.cpp:89
+msgid "--erase-ram"
+msgstr "--erase-ram"
+
+#: gbcflsh.cpp:91
+msgid "--help"
+msgstr "--help"
+
+#: gbcflsh.cpp:129
+msgid ">Error opening file."
+msgstr ">Error abriendo fichero."
+
+#: gbcflsh.cpp:133
+msgid ">File write error."
+msgstr ">Error de escritura del fichero."
+
+#: gbcflsh.cpp:137
+msgid ">File read error."
+msgstr ">Error de lectura del fichero."
+
+#: gbcflsh.cpp:141
+msgid ">Error sending data to device."
+msgstr ">Error enviando datos al dispositivo"
+
+#: gbcflsh.cpp:145
+msgid ">Timeout!"
+msgstr ">Timeout!"
+
+#: gbcflsh.cpp:149
+msgid ">Canceled."
+msgstr ">Cancelado."
+
+#: gbcflsh.cpp:153
+msgid ">Error opening COM port."
+msgstr ">Error abriendo el puerto."
+
+#: gbcflsh.cpp:157
+msgid ">Bad file size."
+msgstr ">Tamaño erróneo"
+
+#: gbcflsh.cpp:161
+msgid ">Operation failure."
+msgstr ">Falló"
+
+#: gbcflsh.cpp:165
+msgid ">Success!"
+msgstr ">Éxito"
+
+#: gbcflsh.cpp:186
+msgid ""
+"\n"
+"--Device information--"
+msgstr ""
+"\n"
+"--Información del dispositivo--"
+
+#: gbcflsh.cpp:190
+msgid "Device firmware version:"
+msgstr "Versión del firmware:"
+
+#: gbcflsh.cpp:192
+msgid ""
+"\n"
+"--Cartridge information--"
+msgstr ""
+"\n"
+"--Información del cartucho--"
+
+#: gbcflsh.cpp:196
+msgid "FLASH memory manufacturer ID:"
+msgstr "ID del fabricante del chip FLASH:"
+
+#: gbcflsh.cpp:201
+msgid "FLASH memory manufacturer name:"
+msgstr "Nombre del fabricante del chip FLASH: "
+
+#: gbcflsh.cpp:206
+msgid "FLASH memory chip ID:"
+msgstr "ID del chip FLASH:"
+
+#: gbcflsh.cpp:212
+msgid "Locked!"
+msgstr "Bloqueado!"
+
+#: gbcflsh.cpp:214
+msgid "Unlocked"
+msgstr "Desbloqueado"
+
+#: gbcflsh.cpp:215
+msgid "Boot Block Status: "
+msgstr "Estado del bloque de inicio:"
+
+#: gbcflsh.cpp:221
+msgid ""
+"\n"
+"--ROM/FLASH content information--\n"
+msgstr ""
+"\n"
+"--Información del contenido del ROM/FLASH--\n"
+
+#: gbcflsh.cpp:222
+msgid "Game logo signature is correct.\n"
+msgstr "Firma del logo del juego correcta.\n"
+
+#: gbcflsh.cpp:225
+msgid "Game title:"
+msgstr "Título del juego: "
+
+#: gbcflsh.cpp:229
+#: gbcflsh.cpp:235
+msgid "YES"
+msgstr "SI"
+
+#: gbcflsh.cpp:231
+#: gbcflsh.cpp:237
+msgid "NO"
+msgstr "NO"
+
+#: gbcflsh.cpp:232
+msgid "Designed for Color GB: "
+msgstr "Diseñado para GB Color: "
+
+#: gbcflsh.cpp:238
+msgid "Designed for Super GB: "
+msgstr "Diseñado para Super GB: "
+
+#: gbcflsh.cpp:242
+msgid "Cartridge type: "
+msgstr "Tipo de cartucho: "
+
+#: gbcflsh.cpp:246
+msgid "ROM size: "
+msgstr "Tamaño del ROM: "
+
+#: gbcflsh.cpp:250
+msgid "RAM size: "
+msgstr "Tamaño del RAM: "
+
+#: gbcflsh.cpp:254
+msgid "Checksum: "
+msgstr "Checksum: "
+
+#: gbcflsh.cpp:259
+msgid "Game logo signature is incorrect.\n"
+msgstr "Firma del logo del juego incorrecta.\n"
+
+#: gbcflsh.cpp:261
+msgid "Cartridge is blank, damaged or not connected."
+msgstr "El cartucho está vacio, dañado o no conectado."
+
+#: gbcflsh.cpp:297
+msgid "Reading data from ROM to file: "
+msgstr "Leyendo datos de ROM al fichero: "
+
+#: gbcflsh.cpp:319
+msgid "Erasing ROM memory..."
+msgstr "Borrando memoria ROM..."
+
+#: gbcflsh.cpp:355
+msgid "Erasing RAM memory..."
+msgstr "Borrando memoria RAM..."
+
+#: gbcflsh.cpp:403
+msgid "Writing data to ROM from file: \n"
+msgstr "Escribiendo datos a ROM desde el fichero: \n"
+
+#: gbcflsh.cpp:405
+#: gbcflsh.cpp:520
+msgid "File size: "
+msgstr "Tamaño del archivo: "
+
+#: gbcflsh.cpp:445
+msgid "Reading data from RAM to file:\n"
+msgstr "Leyendo datos de RAM al fichero:\n"
+
+#: gbcflsh.cpp:518
+msgid "Writing data to RAM from file:\n"
+msgstr "Escribiendo datos a RAM desde el fichero:\n"
+
+#: gbcflsh.cpp:531
+msgid "USAGE:\n"
+msgstr "USO:\n"
+
+#: gbcflsh.cpp:532
+msgid "gbcf <action> [options] [file]\n"
+msgstr "gbcf <acción> [opciones] [fichero]\n"
+
+#: gbcflsh.cpp:534
+msgid "ACTIONS:\n"
+msgstr "ACCIONES:\n"
+
+#: gbcflsh.cpp:535
+msgid "--status:       Show cartridge information\n"
+msgstr "--status:\tMuestra información sobre el cartucho\n"
+
+#: gbcflsh.cpp:536
+msgid "--read-rom:     Read Cartridge ROM Memory (Game)\n"
+msgstr "--read-rom:\tLeer la memoria ROM del cartucho (Juego)\n"
+
+#: gbcflsh.cpp:537
+msgid "--write-rom:    Write cartridge ROM Memory\n"
+msgstr "--write-rom:\tEscribir la memoria ROM del cartucho\n"
+
+#: gbcflsh.cpp:538
+msgid "--erase-rom:    Clear cartridge ROM Memory\n"
+msgstr "--erase-rom:\tBorrar la memoria ROM del cartucho\n"
+
+#: gbcflsh.cpp:539
+msgid "--read-ram:     Read cartridge RAM Memory (Saves)\n"
+msgstr "--read-ram:\tLeer la memoria RAM del cartucho (Partidas)\n"
+
+#: gbcflsh.cpp:540
+msgid "--write-ram:    Write cartridge RAM Memory\n"
+msgstr "--write-ram:\tEscribe la memoria RAM del cartucho\n"
+
+#: gbcflsh.cpp:541
+msgid "--erase-ram:    Clear cartridge RAM Memory\n"
+msgstr "--erase-ram:\tBorra la memoria RAM del cartucho\n"
+
+#: gbcflsh.cpp:543
+msgid "OPTIONS:\n"
+msgstr "OPCIONES\n"
+
+#: gbcflsh.cpp:544
+msgid "--rom <num>:    ROM Size:\n"
+msgstr "--rom <num>:    Tamaño del ROM\n"
+
+#: gbcflsh.cpp:545
+msgid "                0=32Kb, 1=64Kb, 2=128Kb, 3=256Kb, 4=512Kb, 5=1Mb\n"
+msgstr "                0=32Kb, 1=64Kb, 2=128Kb, 3=256Kb, 4=512Kb, 5=1Mb\n"
+
+#: gbcflsh.cpp:546
+msgid "                6=2Mb, 7=4Mb, 8=8Mb\n"
+msgstr "                6=2Mb, 7=4Mb, 8=8Mb\n"
+
+#: gbcflsh.cpp:547
+msgid "--ram <num>:    RAM Size:\n"
+msgstr "--ram <num>:    Tamaño RAM:\n"
+
+#: gbcflsh.cpp:548
+msgid "                0=2KB, 1=8KB, 2=32KB, 3=128KB\n"
+msgstr "                0=2KB, 1=8KB, 2=32KB, 3=128KB\n"
+
+#: gbcflsh.cpp:579
+msgid ">> ERROR. No action specified, try --help"
+msgstr ">> ERROR. No se especificó ninguna acción, pruebe --help."
+
+#: ReadFlashThread.cpp:200
+#: WriteRamThread.cpp:178
+msgid ">> ERROR Read ROM: "
+msgstr ">> ERROR Leyendo ROM:"
+
+#: ReadRamThread.cpp:208
+#: WriteFlashThread.cpp:181
+msgid ">> ERROR Write ROM: "
+msgstr ">> ERROR Escribiendo ROM:"
+
+#: WriteFlashThread.cpp:185
+msgid "Success!"
+msgstr ">Éxito!"
+
+#, fuzzy
+#~ msgid "--read-flash"
+#~ msgstr "--leer-ram"
+
+#, fuzzy
+#~ msgid "--write-flash"
+#~ msgstr "--escribir-ram"
+
+#, fuzzy
+#~ msgid "--erase-flash"
+#~ msgstr "--borrar-ram"
+#~ msgid "Reading data from FLASH to file: "
+#~ msgstr "Leyendo datos del ROM al fichero: "
+#~ msgid "Erasing FLASH memory..."
+#~ msgstr "Borrando memoria ROM..."
+
+#, fuzzy
+#~ msgid "Writing data to FLASH from file: \n"
+#~ msgstr "Escribiendo datos a RAM desde el fichero:\n"
+
+#, fuzzy
+#~ msgid "--read-flash :  Read Cartridge FLASH Memory (ROM)\n"
+#~ msgstr "--leer-ram:\tLeer la memoria RAM del cartucho (Partidas)\n"
+
+#, fuzzy
+#~ msgid "--write-flash:  Write cartridge FLASH Memory\n"
+#~ msgstr "--escribir-ram:\tEscribe la memoria RAM del cartucho\n"
+
+#, fuzzy
+#~ msgid "--erase-flash:  Clear cartridge FLASH Memory\n"
+#~ msgstr "--borrar-ram:\tBorra la memoria RAM del cartucho\n"
+
+#, fuzzy
+#~ msgid "--flash <num>:  Flash Size:\n"
+#~ msgstr "--ram <num>:    Tamaño RAM:\n"
+
